@@ -6,6 +6,15 @@ html {
     box-sizing: inherit; 
   }
 
+body {
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #a52323;
+}
+
   /* ---Utility Classes--- */
   
   .hidden {
@@ -23,6 +32,15 @@ html {
      list-style: none;
    }
   
+   .logo_link {
+    background-color: #EAD789;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+   }
+
   /* ---Mobile Library Grid Styles--- */
   
   .full-width-grid-con {
