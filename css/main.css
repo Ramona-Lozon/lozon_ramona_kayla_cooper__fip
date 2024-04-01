@@ -33,13 +33,42 @@ header {
    }
   
    .logo_link {
-    background-color: #EAD789;
     border-radius: 50px;
     padding: 5px;
     text-align: center;
     margin-top: 10px;
     margin-bottom:10px;
    }
+
+   .sm_link {
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+   }
+
+    .logo_link:hover {
+        transform: scale(1.2);
+        transition: 0.1s ease-in-out;
+    }
+
+    .sm_link:hover {
+        transform: scale(1.2);
+        transition: 0.1s ease-in-out;
+    }
+
+    .panel {
+        background-color: #a52323;
+        opacity: 0.5;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 7px;
+        margin-bottom:7px;
+        list-style: none;
+      }
 
   /* ---Mobile Library Grid Styles--- */
   
