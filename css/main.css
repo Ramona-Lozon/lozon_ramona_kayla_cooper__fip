@@ -191,39 +191,74 @@ h2 {
 
 /* products mobile styles */
 
+/* classic product card */
 #classic_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
    height:600px;
    width:412px;
+   text-align: center;
    margin:auto;
 }
 
-#diet_hero_card _{
+#classic_card_desc {
+   color: white;
+   margin-top: 350px;
+}
+
+/* diet product card */
+#diet_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
    height:600px;
    width:412px;
    margin:auto;
+   text-align: center;
 }
 
+#diet_card_desc {
+   color: white;
+   margin-top: 350px;
+}
+
+/* cherry product card */
 #cherry_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
    height:600px;
    width:412px;
    margin:auto;
+   text-align: center;
 }
 
+#cherry_card_desc {
+   color: white;
+   margin-top: 350px;
+}
+
+/* lime product card */
 #lime_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
    height:600px;
    width:412px;
    margin:auto;
+   text-align: center;
 }
 
+#lime_card_desc {
+   color: white;
+   margin-top: 350px;
+}
+
+/* blueberry product card */
 #blueberry_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
    height:600px;
    width:412px;
    margin:auto;
+   text-align: center
+}
+
+#blueberry_card_desc {
+   color: white;
+   margin-top: 350px;
 }
 
 /* mobile footer styles */
@@ -334,6 +369,63 @@ footer {
    height:342px;
    width:379px;
    margin:0px auto 10px 0px;
+}
+
+/* tablet product page styles */
+
+/* classic tablet product card */
+#classic_hero_card {
+   background-image: url('../images/ph_tablet_hero.jpg');
+   height:400px;
+   width:768px;
+}
+
+#classic_card_desc {
+   margin-top: 100px;
+}
+
+/* diet tablet product card */
+#diet_hero_card {
+   background-image: url('../images/ph_tablet_hero.jpg');
+   height:400px;
+   width:768px;
+}
+
+#diet_card_desc {
+   margin-top: 100px;
+}
+
+/* cherry tablet product card */
+#cherry_hero_card {
+   background-image: url('../images/ph_tablet_hero.jpg');
+   height:400px;
+   width:768px;
+}
+
+#cherry_card_desc {
+   margin-top: 100px;
+}
+
+/* lime tablet product card */
+#lime_hero_card {
+   background-image: url('../images/ph_tablet_hero.jpg');
+   height:400px;
+   width:768px;
+}
+
+#lime_card_desc {
+   margin-top: 100px;
+}
+
+/* blueberry tablet product card */
+#blueberry_hero_card {
+   background-image: url('../images/ph_tablet_hero.jpg');
+   height:400px;
+   width:768px;
+}
+
+#blueberry_card_desc {
+   margin-top: 100px;
 }
 
 footer {
@@ -459,6 +551,64 @@ footer {
    width:790px;
    margin:0px auto 10px 0px;
 }
+
+/* desktop product page styles */
+
+/* classic desktop product card */
+#classic_hero_card {
+   background-image: url('../images/ph_desk_hero.jpg');
+   height:927px;
+   width:1200px;
+}
+
+#classic_card_desc {
+   margin-top: 300px;
+}
+
+/* diet desktop product card */
+#diet_hero_card {
+   background-image: url('../images/ph_desk_hero.jpg');
+   height:927px;
+   width:1200px;
+}
+
+#diet_card_desc {
+   margin-top: 300px;
+}
+
+/* cherry desktop product card */
+#cherry_hero_card {
+   background-image: url('../images/ph_desk_hero.jpg');
+   height:927px;
+   width:1200px;
+}
+
+#cherry_card_desc {
+   margin-top: 300px;
+}
+
+/* lime desktop product card */
+#lime_hero_card {
+   background-image: url('../images/ph_desk_hero.jpg');
+   height:927px;
+   width:1200px;
+}
+
+#lime_card_desc {
+   margin-top: 300px;
+}
+
+/* blueberry desktop product card */
+#blueberry_hero_card {
+   background-image: url('../images/ph_desk_hero.jpg');
+   height:927px;
+   width:1200px;
+}
+
+#blueberry_card_desc {
+   margin-top: 300px;
+}
+
 
 footer {
    height: 400px;
