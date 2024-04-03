@@ -191,76 +191,66 @@ h2 {
 
 /* products mobile styles */
 
-/* classic product card */
 #classic_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
-   height:600px;
-   width:412px;
-   text-align: center;
-   margin:auto;
 }
 
-#classic_card_desc {
-   color: white;
-   margin-top: 350px;
-}
-
-/* diet product card */
 #diet_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
-   height:600px;
-   width:412px;
-   margin:auto;
-   text-align: center;
 }
 
-#diet_card_desc {
-   color: white;
-   margin-top: 350px;
-}
-
-/* cherry product card */
 #cherry_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
-   height:600px;
-   width:412px;
-   margin:auto;
-   text-align: center;
 }
 
-#cherry_card_desc {
-   color: white;
-   margin-top: 350px;
-}
-
-/* lime product card */
 #lime_hero_card {
    background-image: url('../images/ph_mobile_p_card.jpg');
+}
+
+#blueberry_hero_card {
+   background-image: url('../images/ph_mobile_p_card.jpg');
+}
+
+.right_side_spacer {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.left_side_spacer {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.product_hero_card {
    height:600px;
    width:412px;
-   margin:auto;
+}
+
+.product_card_title {
+   Margin-top:350px;
+   font-size: 24px;
+   color: white;
+   transition: 0.7s ease-in-out;
    text-align: center;
 }
 
-#lime_card_desc {
-   color: white;
-   margin-top: 350px;
+.product_card_title.active {
+   Margin-top:320px;
 }
 
-/* blueberry product card */
-#blueberry_hero_card {
-   background-image: url('../images/ph_mobile_p_card.jpg');
-   height:600px;
-   width:412px;
-   margin:auto;
-   text-align: center
+.product_card_desc {
+   font-size: 18px;
+   color:white;
+   margin-top: -100px;
+   height:fit-content;
+   opacity: 0;
+   transition: opacity 0.5s ease-in-out 0.3s;
+   text-align: center;
 }
 
-#blueberry_card_desc {
-   color: white;
-   margin-top: 350px;
+.product_card_desc.active {
+   opacity: 1;
 }
-
 /* mobile footer styles */
 
 footer {
@@ -373,61 +363,55 @@ footer {
 
 /* tablet product page styles */
 
-/* classic tablet product card */
 #classic_hero_card {
    background-image: url('../images/ph_tablet_hero.jpg');
-   height:400px;
-   width:768px;
 }
 
-#classic_card_desc {
-   margin-top: 100px;
-}
-
-/* diet tablet product card */
 #diet_hero_card {
    background-image: url('../images/ph_tablet_hero.jpg');
-   height:400px;
-   width:768px;
 }
 
-#diet_card_desc {
-   margin-top: 100px;
-}
-
-/* cherry tablet product card */
 #cherry_hero_card {
    background-image: url('../images/ph_tablet_hero.jpg');
-   height:400px;
-   width:768px;
 }
 
-#cherry_card_desc {
-   margin-top: 100px;
-}
-
-/* lime tablet product card */
 #lime_hero_card {
    background-image: url('../images/ph_tablet_hero.jpg');
-   height:400px;
-   width:768px;
 }
 
-#lime_card_desc {
-   margin-top: 100px;
-}
-
-/* blueberry tablet product card */
 #blueberry_hero_card {
    background-image: url('../images/ph_tablet_hero.jpg');
+}
+
+.right_side_spacer {
+   margin-left: 0px;
+   margin-right: 30px;
+}
+
+.left_side_spacer {
+   margin-left: 30px;
+   margin-right: 0px;
+}
+
+.product_hero_card {
    height:400px;
    width:768px;
 }
 
-#blueberry_card_desc {
-   margin-top: 100px;
+.product_card_title {
+   Margin-top:100px;
 }
 
+.product_card_title.active {
+   Margin-top:70px;
+}
+
+.product_card_desc {
+   font-size: 18px;
+   margin-top: -100px;
+}
+
+/* footer syles */
 footer {
    height: 350px;
 }
@@ -526,6 +510,19 @@ footer {
    height:500px;
    width:790px;
    margin:0px 0px 10px auto;
+   text-align:center;
+}
+
+#index_diet_desc {
+   color: white;
+   font-family: 'Lobster';
+   font-size: 42px;
+   opacity: 0;
+   transition: opacity 0.5s ease-in-out;
+}
+
+#index_diet_desc.active {
+   opacity: 1;
 }
 
  #index_cherry_panel {
@@ -554,62 +551,52 @@ footer {
 
 /* desktop product page styles */
 
-/* classic desktop product card */
 #classic_hero_card {
    background-image: url('../images/ph_desk_hero.jpg');
-   height:927px;
-   width:1200px;
 }
-
-#classic_card_desc {
-   margin-top: 300px;
-}
-
-/* diet desktop product card */
 #diet_hero_card {
    background-image: url('../images/ph_desk_hero.jpg');
-   height:927px;
-   width:1200px;
 }
-
-#diet_card_desc {
-   margin-top: 300px;
-}
-
-/* cherry desktop product card */
 #cherry_hero_card {
    background-image: url('../images/ph_desk_hero.jpg');
-   height:927px;
-   width:1200px;
 }
-
-#cherry_card_desc {
-   margin-top: 300px;
-}
-
-/* lime desktop product card */
 #lime_hero_card {
    background-image: url('../images/ph_desk_hero.jpg');
-   height:927px;
-   width:1200px;
 }
-
-#lime_card_desc {
-   margin-top: 300px;
-}
-
-/* blueberry desktop product card */
 #blueberry_hero_card {
    background-image: url('../images/ph_desk_hero.jpg');
+}
+
+.right_side_spacer {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.left_side_spacer {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.product_hero_card {
    height:927px;
    width:1200px;
 }
 
-#blueberry_card_desc {
-   margin-top: 300px;
+.product_card_title {
+   Margin-top:250px;
+   font-size: 36px;
 }
 
+.product_card_title.active {
+   Margin-top:200px;
+}
 
+.product_card_desc {
+   font-size: 24px;
+   margin-top: -320px;
+}
+
+/* footer styles */
 footer {
    height: 400px;
 }
