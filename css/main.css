@@ -150,43 +150,27 @@ h2 {
 
   /* index mobile panel styles */
 
-  #products_panel {
-   text-align: center;
- }
+ #index_classic_panel {background-image: url('../images/ph_mobile_panel.jpg');}
+ #index_diet_panel {background-image: url('../images/ph_mobile_panel.jpg');}
+ #index_cherry_panel {background-image: url('../images/ph_mobile_panel.jpg');}
+ #index_lime_panel {background-image: url('../images/ph_mobile_panel.jpg');}
+ #index_blueberry_panel {background-image: url('../images/ph_mobile_panel.jpg');}
 
- #index_classic_panel {
-   background-image: url('../images/ph_mobile_panel.jpg');
+.index_product_panel {   
    height:100px;
    width:412px;
-   margin:auto; 
+   margin: 0px auto 0px auto; 
+   overflow:hidden;
 }
 
- #index_diet_panel {
-   background-image: url('../images/ph_mobile_panel.jpg');
-   height:100px; 
-   width:412px;
-   margin:auto;
+.index_product_title {
+   color:white;
+   margin-left:-100px;
+   transition: 0.3s ease-in-out;
 }
 
- #index_cherry_panel {
-   background-image: url('../images/ph_mobile_panel.jpg');
-   height:100px; 
-   width:412px;
-   margin:auto;
-}
-
- #index_lime_panel {
-   background-image: url('../images/ph_mobile_panel.jpg');
-   height:100px; 
-   width:412px;
-   margin:auto;
-}
-
- #index_blueberry_panel {
-   background-image: url('../images/ph_mobile_panel.jpg');
-   height:100px;
-   width:412px;
-   margin:auto; 
+.index_product_title.hover-activate {
+   margin-left: 50px;
 }
 
 /* products mobile styles */
@@ -317,6 +301,38 @@ footer {
 
 /* tablet index products panel styles */
 
+
+#index_diet_panel {background-image: url('../images/ph_tablet_panel.jpg');
+   margin:0px 0px 10px auto;
+}
+ #index_cherry_panel {background-image: url('../images/ph_tablet_panel.jpg');
+   margin:0px auto 10px 0px;
+}
+ #index_lime_panel {background-image: url('../images/ph_tablet_panel.jpg');
+   margin:0px 0px 10px auto;
+}
+ #index_blueberry_panel {background-image: url('../images/ph_tablet_panel.jpg');
+   margin:0px auto 10px 0px;
+}
+
+.index_product_panel {   
+  height:342px;
+  width:379px;
+  background-repeat: no-repeat; 
+  overflow:hidden;
+}
+
+.index_product_title {
+  color:white;
+  margin-left:-100px;
+  transition: 0.3s ease-in-out;
+}
+
+.index_product_title.hover-activate {
+  margin-left: 50px;
+}
+
+
 #products_panel {
    text-align: center;
  }
@@ -329,37 +345,7 @@ footer {
    margin:10px auto 10px auto; 
 }
 
- #index_diet_panel {
-   background-image: url('../images/ph_tablet_panel.jpg');
-   background-repeat: no-repeat;
-   height:342px;
-   width:379px;
-   margin:0px 0px 10px auto;
-}
 
- #index_cherry_panel {
-   background-image: url('../images/ph_tablet_panel.jpg');
-   background-repeat: no-repeat;
-   height:342px;
-   width:379px;
-   margin:0px auto 10px 0px;
-}
-
- #index_lime_panel {
-   background-image: url('../images/ph_tablet_panel.jpg');
-   background-repeat: no-repeat;
-   height:342px;
-   width:379px;
-   margin:0px 0px 10px auto;
-}
-
- #index_blueberry_panel {
-   background-image: url('../images/ph_tablet_panel.jpg');
-   background-repeat: no-repeat;
-   height:342px;
-   width:379px;
-   margin:0px auto 10px 0px;
-}
 
 /* tablet product page styles */
 

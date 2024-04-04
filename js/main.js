@@ -20,4 +20,18 @@ function addObserver(el) {
     observer.observe(el);
 }
 
-scrollTrigger('.scroll-activate');
+// hover over index product panels
+document.addEventListener("DOMContentLoaded", function() {
+    const productPanels = document.querySelectorAll(".index_product_panel");
+    const productTitles = document.querySelectorAll(".index_product_title");
+
+    productPanels.forEach(panel => {
+        panel.addEventListener("mouseenter", function() {
+            panel.querySelector(".index_product_title").classList.add("hover-activate");
+        });
+
+        panel.addEventListener("mouseleave", function() {
+            panel.querySelector(".index_product_title").classList.remove("hover-activate");
+        });
+    });
+});
