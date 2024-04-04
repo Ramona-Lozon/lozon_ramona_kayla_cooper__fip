@@ -20,6 +20,8 @@ function addObserver(el) {
     observer.observe(el);
 }
 
+scrollTrigger('.scroll-activate');
+
 // hover over index product panels
 document.addEventListener("DOMContentLoaded", function() {
     const productPanels = document.querySelectorAll(".index_product_panel");
