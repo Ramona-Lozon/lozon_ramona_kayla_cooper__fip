@@ -427,8 +427,9 @@ footer {height: 350px;}
 }
  
  .index_product_title {
-   margin-left:-100px;
+   margin-left:-250px;
    transition: 0.3s ease-in-out;
+   font-size: 36px;
  }
  
  .index_product_title.hover-activate {margin-left: 50px;}
