@@ -35,18 +35,6 @@ h2 {
   .hidden {
      display: none;
   }
-  
-  .box {
-     background-color: powderblue;
-     color: rgb(27, 27, 27);
-     border-radius: 5px;
-     padding: 20px;
-     text-align: center;
-     margin-top: 7px;
-     margin-bottom:7px;
-     list-style: none;
-   }
-  
 
    /* nav styles */
    .logo_link {
@@ -422,7 +410,7 @@ footer {height: 350px;}
    background-image: url(../images/almonddrop.mp4);
    background-repeat: no-repeat;
    width: 1200px;
-   height: 927px;
+   height: 675px;
 }
 
 #background-vid {
@@ -434,13 +422,14 @@ footer {height: 350px;}
    top: -10px; 
 }
    
-
 #desk_hero_desc {
-   font-size: 36px;
    position: absolute;
-   z-index: 100;
-   top: 555px;
+   top: 0;
+   transform: translatex(30%);
+   z-index: 2;
+   top: 100px;
    width: 40%;
+   font-size: 36px;
 }
 
 /* Desktop index products panel styles */
