@@ -149,11 +149,11 @@ h2 {
   /* index mobile panel styles */
 
 
- #index_classic_panel {background-image: url('../images/ph_mobile_panel.jpg');margin: 0px auto 0px auto}
- #index_diet_panel {background-image: url('../images/ph_mobile_panel.jpg');margin: 0px auto 0px auto}
- #index_cherry_panel {background-image: url('../images/ph_mobile_panel.jpg');margin: 0px auto 0px auto}
- #index_lime_panel {background-image: url('../images/ph_mobile_panel.jpg');margin: 0px auto 0px auto}
- #index_blueberry_panel {background-image: url('../images/ph_mobile_panel.jpg');margin: 0px auto 0px auto}
+ #index_classic_panel {background-image: url('../images/almond-mobile-panel.jpg');margin: 0px auto 0px auto}
+ #index_diet_panel {background-image: url('../images/diet-mobile-panel.jpg');margin: 0px auto 0px auto}
+ #index_cherry_panel {background-image: url('../images/cherry-mobile-panel.jpg');margin: 0px auto 0px auto}
+ #index_lime_panel {background-image: url('../images/lime-mobile-panel-2.jpg');margin: 0px auto 0px auto}
+ #index_blueberry_panel {background-image: url('../images/blue-mobile-panel.jpg');margin: 0px auto 0px auto}
 
 .index_product_panel {   
    height:100px;
