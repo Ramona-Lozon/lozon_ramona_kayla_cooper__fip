@@ -272,12 +272,22 @@ footer {height: 300px;}
 z-index: -1000;
 max-width: 1200px;
 margin: 0px;
+margin-top:90px;
 padding: 0px;
 top: -10px; 
 }
 
+#desk_hero_desc {
+   position: absolute;
+   top: 0;
+   transform: translatex(30%);
+   z-index: 2;
+   top: 100px;
+   width: 40%;
+   font-size: 18px;
+}
 
-#desk_hero_desc {font-size: 18px;}
+
 
 /* tablet index products panel styles */
 
