@@ -276,14 +276,15 @@ footer {height: 300px;}
 
 /* tablet index products panel styles */
 
-#index_classic_panel {background-image: url('../images/ph_tablet_classic_panel.jpg');
+#index_classic_panel {background-image: url('../images/almond-hero-index-tablet.jpg');
    height:342px;
    width:768px;
    margin:auto;
+   border-radius: 100px;
 }
-#index_diet_panel {background-image: url('../images/ph_tablet_panel.jpg');margin: 0px 0px 0px auto;}
-#index_cherry_panel {background-image: url('../images/ph_tablet_panel.jpg');margin: 0px auto 0px 0px;}
-#index_lime_panel {background-image: url('../images/ph_tablet_panel.jpg');margin: 0px 0px 0px auto;}
+#index_diet_panel {background-image: url('../images/diet-tablet.jpg');margin: 0px 0px 0px auto;}
+#index_cherry_panel {background-image: url('../images/cherry-tablet.jpg');margin: 0px auto 0px 0px;}
+#index_lime_panel {background-image: url('../images/lime-tablet.jpg');margin: 0px 0px 0px auto;}
 #index_blueberry_panel {background-image: url('../images/ph_tablet_panel.jpg');margin: 0px auto 0px 0px;}
 
 .index_product_panel {   
@@ -388,6 +389,9 @@ footer {height: 350px;}
         grid-column-gap: 14px;
      }
 
+   .hidden_mobile{
+      display: hidden;
+   }  
    .hidden_desktop {
       display: none;
      }
@@ -398,28 +402,42 @@ footer {height: 350px;}
 
 /* Desktop index hero stlyles */
 #index_hero {
-   background-image: url(../images/ph_desk_hero.jpg);
+   background-image: url(../images/almonddrop.mp4);
    background-repeat: no-repeat;
    width: 1200px;
    height: 927px;
 }
 
+#background-vid {
+   position: absolute;
+   z-index: -1000;
+   max-width: 1200px;
+   margin: 0px;
+   padding: 0px;
+   top: -10px; 
+}
+   
+
 #desk_hero_desc {
    font-size: 36px;
+   position: absolute;
+   z-index: 100;
+   top: 555px;
+   width: 40%;
 }
 
 /* Desktop index products panel styles */
 
- #index_classic_panel {background-image: url('../images/ph_desk_classic_panel.jpg');
+ #index_classic_panel {background-image: url('../images/almond-hero-index.jpg');
    background-repeat: no-repeat;
    height:500px;
    width:1200px;
    margin:auto;
 }
- #index_diet_panel {background-image: url('../images/ph_desk_panel.jpg');}
- #index_cherry_panel {background-image: url('../images/ph_desk_panel.jpg');}
- #index_lime_panel {background-image: url('../images/ph_desk_panel.jpg');}
- #index_blueberry_panel {background-image: url('../images/ph_desk_panel.jpg');}
+ #index_diet_panel {background-image: url('../images/diet-desk-panel.jpg');}
+ #index_cherry_panel {background-image: url('../images/cherry-desk-panel.jpg');}
+ #index_lime_panel {background-image: url('../images/lime-desk-panel.jpg');}
+ #index_blueberry_panel {background-image: url('../images/blue-desk-panel.jpg');}
 
  .index_product_panel {
    height:500px;
@@ -436,11 +454,11 @@ footer {height: 350px;}
 
 /* desktop product page styles */
 
-#classic_hero_card {background-image: url('../images/ph_desk_hero.jpg');}
-#diet_hero_card {background-image: url('../images/ph_desk_hero.jpg');}
-#cherry_hero_card {background-image: url('../images/ph_desk_hero.jpg');}
-#lime_hero_card {background-image: url('../images/ph_desk_hero.jpg');}
-#blueberry_hero_card {background-image: url('../images/ph_desk_hero.jpg');}
+#classic_hero_card {background-image: url('../images/almond-hero-desk.jpg');}
+#diet_hero_card {background-image: url('../images/diet-hero-desk.jpg');}
+#cherry_hero_card {background-image: url('../images/cherry-hero-desk.jpg');}
+#lime_hero_card {background-image: url('../images/lime-hero-desk.jpg');}
+#blueberry_hero_card {background-image: url('../images/blue-hero-desk.jpg');}
 
 .right_side_spacer {
    margin-left: 0px;
