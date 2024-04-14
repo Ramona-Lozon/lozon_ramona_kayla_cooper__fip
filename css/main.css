@@ -288,7 +288,7 @@ top: -10px;
    transform: translatex(30%);
    z-index: 2;
    top: 100px;
-   width: 40%;
+   width: 300px;
    font-size: 18px;
 }
 
@@ -443,7 +443,7 @@ footer {height: 350px;}
    transform: translatex(30%);
    z-index: 2;
    top: 100px;
-   width: 40%;
+   width: 500px;
    font-size: 36px;
 }
 
